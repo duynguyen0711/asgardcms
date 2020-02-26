@@ -1,0 +1,13 @@
+1. login
+http://localhost/asgardcms/public/auth/login
+user/pass: phungduynguyen0711@gmail.com/123456
+
+2. dashboard
+http://localhost/asgardcms/public/en/backend
+
+3. create module
+php artisan asgard:module:scaffold
+asgardcms/product
+
+php artisan module:mtigrate Product
+php artisan module:migrate-rollback Product

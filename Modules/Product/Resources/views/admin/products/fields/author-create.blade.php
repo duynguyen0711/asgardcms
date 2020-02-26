@@ -1,0 +1,1 @@
+{!! From!!normalInput('author,'Author name', $errors, $Product)!!}
